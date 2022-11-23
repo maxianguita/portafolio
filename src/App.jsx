@@ -1,11 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
+import Header from './components/Header/Header'
+import Home from './components/home/Home'
 
-function App() {
-
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello Word</h1>
+    <div>
+      <Header />
+      <main className='main'>
+        <Home/>
+      </main>
     </div>
   )
 }
