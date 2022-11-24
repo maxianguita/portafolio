@@ -57,7 +57,7 @@ const Data = () => {
 
       <h3 className="home__subtitle">Desarrollador Front-End</h3>
       <p className="home__description">
-      Ingeniero en sistemas egresado de la fundación universitaria de San Gil – UNISANGIL, participé en el semillero de investigación PDM y el semillero de investigación de redes donde me desempeñé como desarrollador obteniendo experiencia en el área, actualmente estoy desarrollando aplicaciones con JavaScript y todo su entorno web, adicionalmente cuento con conocimientos en el área de metodologías ágiles.
+      Ingeniero en sistemas egresado de la fundación universitaria de San Gil – UNISANGIL, desarrollandor de aplicaciones con React.js.
       </p>
 
       <a href="#contact" className="button button-flex">
