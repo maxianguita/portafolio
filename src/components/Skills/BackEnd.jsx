@@ -11,7 +11,7 @@ const BackEnd = () => {
                     <i class='bx bxl-nodejs icon' ></i>
                     <div>
                         <h3 className="skills__name">Node.JS</h3>
-                        <span className="skills__level">Medio</span>
+                        <span className="skills__level"></span>
                     </div>
                 </div>
 
@@ -19,7 +19,7 @@ const BackEnd = () => {
                     <i class='bx bx-server icon' ></i>
                     <div>
                         <h3 className="skills__name">Express</h3>
-                        <span className="skills__level">Medio</span>
+                        <span className="skills__level"></span>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@ const BackEnd = () => {
                     <i class='bx bxs-data icon' ></i>
                     <div>
                         <h3 className="skills__name">FireBase</h3>
-                        <span className="skills__level">Medio</span>
+                        <span className="skills__level"></span>
                     </div>
                 </div>
                 
@@ -40,7 +40,7 @@ const BackEnd = () => {
                     <i class='bx bxs-data icon' ></i>
                     <div>
                         <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Medio</span>
+                        <span className="skills__level"></span>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ const BackEnd = () => {
                     <i class='bx bxl-mongodb icon' ></i>
                     <div>
                         <h3 className="skills__name">MongoDB</h3>
-                        <span className="skills__level">Medio</span>
+                        <span className="skills__level"></span>
                     </div>
                 </div>
                 
