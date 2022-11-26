@@ -30,7 +30,7 @@ npm install --legacy-peer-deps <library-name>
 
 ## Preview
 
-![enter image description here](https://i.ibb.co/0MxP75L/techshopnext.png)
+![enter image description here](https://i.ibb.co/Wpmk3Zm/Portfolio-Edward-Cifuentes.png)
 
 ### Author
 
