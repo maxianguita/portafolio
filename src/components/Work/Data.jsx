@@ -4,50 +4,57 @@ import Work3 from '../../assets/work3.jpg'
 import Work4 from '../../assets/work4.jpg'
 import Work5 from '../../assets/work5.jpg'
 import Work6 from '../../assets/work6.jpg'
-
+import Work7 from '../../assets/work7.jpg'
 export const projectsData = [
     {
       id: 1,
+      image: Work7,
+      title: "Zoom Clone Using React Elastic UI, Redux ToolKit, Firebase and ZEGOCLOUD ",
+      category: "app",
+      url:'https://zoom-clone-cifu1199.netlify.app/'
+    },
+    {
+      id: 2,
       image: Work6,
       title: "Youtube clon Using React | Redux | Typescript | Tailwind | YouTube API ",
       category: "web",
       url:'https://github.com/CIFU1199/Youtube-Clon'
     },
     {
-      id: 2,
+      id: 3,
       image: Work1,
       title: "Proyecto APV con MERN Tailwind React Router Dom",
       category: "app",
       url:'https://github.com/CIFU1199/APV_MERN_frontend'
     },
     {
-      id: 3,
+      id: 4,
       image: Work2,
       title: "Introducción a NodeJS Proyecto viajes con Express Sequelize Pug y Bootstrap",
       category: "web",
       url:'https://github.com/CIFU1199/agenciaViajesNode'
     },
     {
-      id: 4,
+      id: 5,
       image: Work3,
       title: "Prototype of tech store using next.js and material ui ",
       category: "app",
       url:'https://github.com/CIFU1199/PEIT-react3-store-app'
     },
     {
-      id: 5,
+      id: 6,
       image: Work4,
       title: "Cotizador de Criptomonedas con fetch API ",
       category: "web",
       url:'https://github.com/CIFU1199/Cotizador-de-Criptomonedas'
     },
-    {
-      id: 6,
+    /* {
+      id: 7,
       image: Work5,
       title: "Buscador de Imagenes con Pixabay API ",
-      category: "diseño",
+      category: "web",
       url:'https://github.com/CIFU1199/PROYECTOBuscador-de-Imagenes-con-Pixabay-API'
-    },
+    }, */
     
 
   ];
@@ -62,8 +69,8 @@ export const projectsData = [
     {
         name:'app'
     },
-    {
+    /* {
         name:'diseño'
-    }
+    } */
 
   ]
