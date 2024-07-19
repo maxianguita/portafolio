@@ -3,7 +3,7 @@ import React from 'react'
 const Data = () => {
   return (
     <div className="home__data">
-      <h1 className="home__title">Edward Cifuentes
+      <h1 className="home__title">Maxi Anguita
         <svg
                   width="36"
                   height="36"
@@ -57,7 +57,7 @@ const Data = () => {
 
       <h3 className="home__subtitle">Desarrollador Front-End</h3>
       <p className="home__description">
-      Ingeniero en sistemas egresado de la fundación universitaria de San Gil – UNISANGIL, desarrollandor de aplicaciones con React.js.
+     Full stack developer  –  desarrollandor de aplicaciones con React.js.
       </p>
 
       <a href="#contact" className="button button-flex">

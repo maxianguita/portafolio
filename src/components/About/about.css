@@ -5,9 +5,15 @@
 }
 
 .about__img{
-    width: 350px;
-    border-radius: 1.5rem;
-    justify-self: center;
+  width: 500px; /* Asegúrate de que la imagen tenga un ancho y alto iguales para que sea un círculo */
+  height: 500px; /* Ajusta el tamaño según tus necesidades */
+  border-radius: 50%; /* Esto hará que la imagen sea redonda */
+  justify-self: center;
+  transition: transform 0.3s ease; /* Añade una transición suave para el efecto de agrandamiento */
+  object-fit: cover; /
+}
+.about__img:hover{
+  transform: scale(1.2);
 }
 
 .about__info{

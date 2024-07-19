@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
-import AboutImg from "../../assets/About.png"
-import CV from '../../assets/CV-EdwardCifuentes.pdf'
+import AboutImg from "../../assets/maxianguita.png"
+import CV from '../../assets/cv-maximo.png'
 import Info from './Info'
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
             <div className="about__data">
               <Info/>
               <p className="about__description">
-                Desarrollador Front-End | Ingeniero en Sistemas egresado de la fundación universitaria de San Gil – UNISANGIL, participé en el semillero de investigación PDM y el semillero de investigación de redes donde me desempeñé como desarrollador obteniendo experiencia en el área, actualmente estoy desarrollando aplicaciones con JavaScript y todo su entorno web, adicionalmente cuento con conocimientos en el área de metodologías ágiles.
+              Soy un desarrollador full stack egresado de la Academia SOY HENRY. Participé en el desarrollo de una aplicación para la venta de accesorios de baño, donde me desempeñé como desarrollador y adquirí experiencia en el front end. Actualmente, estoy desarrollando aplicaciones con JavaScript y todo su ecosistema web. Además, cuento con conocimientos en metodologías ágiles, lo que me permite trabajar de manera eficiente y colaborativa en equipos de desarrollo.
               </p>
               <a download="" href={CV} className="button button--flex">
                 Descargar CV

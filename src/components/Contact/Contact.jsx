@@ -32,24 +32,24 @@ const Contact = () => {
                     <div className="contact__card">
                         <i className="bx bx-mail-send contact__card-icon"></i>
                         <h3 className="contact__card-title">Email</h3>
-                        <div className="contact__card-data">edwardcifuentes@unisangil.edu.co</div>
-                        <a href="mailto:edwardcifuentes@unisangil.edu.co?Subject=Descripción%20del%20Proyecto" target='_blank' className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <div className="contact__card-data">Maxi.7anguita@gmail.com</div>
+                        <a href="mailto:maxi.7anguita@gmail.com" target='_blank' className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
 
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-whatsapp contact__card-icon"></i>
                         <h3 className="contact__card-title">Whatsapp</h3>
-                        <div className="contact__card-data">322-321-3673</div>
-                        <a href="https://api.whatsapp.com/send?phone=573223219673&text=Hola,%20más%20Información?" target='_blank' className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <div className="contact__card-data">1135636555</div>
+                        <a href="https://wa.me/1135636555" target='_blank' className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
 
                     </div>
 
                     <div className="contact__card">
                         <i className="bx bxl-messenger contact__card-icon"></i>
                         <h3 className="contact__card-title">Messenger</h3>
-                        <div className="contact__card-data">Edward Cifuentes</div>
-                        <a href="https://www.messenger.com/t/100001757646447" target='_blank' className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <div className="contact__card-data">Maxi Anguita</div>
+                        <a href="https://www.facebook.com/maxikingz/" target='_blank' className="contact__button">Escríbeme <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
 
                     </div>
                 </div>
