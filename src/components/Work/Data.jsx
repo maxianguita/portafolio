@@ -33,7 +33,7 @@ export const projectsData = [
       image: Work2,
       title: "DRIVER PROJECT HENRY",
       category: "LANDING",
-      url:'https://www.youtube.com/watch?v=C4StkCtGhZo&t=94s'
+      url:'https://proyecto-driversf1-henry.vercel.app/home'
     },
     
   ];
