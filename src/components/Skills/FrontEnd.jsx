@@ -72,6 +72,14 @@ const FrontEnd = () => {
                         <span className="skills__level"></span>
                     </div>
                 </div>
+
+                <div className="skills__data">
+                    <i className='bx bxl-react icon' ></i>
+                    <div>
+                        <h3 className="skills__name">React Native</h3>
+                        <span className="skills__level"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

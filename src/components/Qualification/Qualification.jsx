@@ -92,6 +92,36 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Landing EcoClima</h3>
+                <span className="qualification__subtitle">Landing Page</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">NBA Score</h3>
+                <span className="qualification__subtitle">App</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2024
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="qualification__content qualification__content-active">
@@ -113,7 +143,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">KICK STORE</h3>
-                <span className="qualification__subtitle">app tienda de ropa</span>
+                <span className="qualification__subtitle">App tienda de ropa</span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i> 2024 
                 </div>
