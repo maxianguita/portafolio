@@ -1,55 +1,88 @@
 .about__container {
-  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  column-gap: 4rem;
+  gap: 2rem; /* Espaciado entre imagen y contenido */
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
 .about__img {
-  width: 500px; /* Asegúrate de que la imagen tenga un ancho y alto iguales para que sea un círculo */
-  height: 500px; /* Ajusta el tamaño según tus necesidades */
-  border-radius: 50%; /* Esto hará que la imagen sea redonda */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
   justify-self: center;
-  transition: transform 0.3s ease; /* Añade una transición suave para el efecto de agrandamiento */
-  object-fit: cover; /* Esto asegura que la imagen se ajuste bien dentro del contenedor */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+  border: 3px solid #4f46e5; /* borde sutil y elegante */
 }
+
 .about__img:hover {
-  transform: scale(1.2);
+  transform: scale(1.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .about__info {
   display: grid;
-  grid-template-columns: repeat(3, 140px);
-  gap: 0.5rem;
-  margin-bottom: var(--mb-2);
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-items: center;
 }
 
 .about__box {
-  background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
   border-radius: 0.75rem;
   text-align: center;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about__box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 .about__icon {
-  font-size: 1.5rem;
-  color: var(--title-color);
-  margin-bottom: var(--mb-0-5);
+  font-size: 1.6rem;
+  color: #4f46e5;
+  margin-bottom: 0.5rem;
 }
 
 .about__title {
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 0.25rem;
 }
 
 .about__subtitle {
-  font-size: var(--tiny-font-size);
+  font-size: 0.85rem;
+  color: #555;
 }
 
 .about__description {
-  padding: 0 4rem 0 0;
-  margin-bottom: var(--mb-2-5);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 1rem;
 }
+
+.about__download {
+  margin-top: 2rem;      /* separa el botón del texto */
+  font-size: 0.85rem;    /* un poco más pequeño que el texto */
+  padding: 0.5rem 1rem;  /* reduce el tamaño del botón */
+  align-self: flex-start; /* para que no se estire si está en un grid */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about__download:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
@@ -89,7 +122,7 @@
 
   .about__img {
       width: 150px;
-      height: 150px; /* Asegura que la imagen siga siendo cuadrada */
+      height: 150px;
   }
 
   .about__description {
