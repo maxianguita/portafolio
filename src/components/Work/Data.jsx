@@ -6,6 +6,8 @@ import Work8 from '../../assets/ecoclima.png'
 import Work9 from '../../assets/nbascore.png'
 import Work10 from '../../assets/barber.jpg'      
 import Work11 from '../../assets/ingresos.jpg'   
+import Work12 from '../../assets/lym.png' 
+import Work13 from '../../assets/primal.png' 
 
 export const projectsData = [
    {
@@ -14,6 +16,21 @@ export const projectsData = [
     title: "Barber App",
     category: "app",
     url: 'https://barber-app-peach.vercel.app/'  
+  },
+  {
+    id: 13,
+    image: Work13,
+    title: "Primalstrength",
+    category: "app",
+    url: 'https://primalstrength-web-8997.vercel.app/'  
+  },
+  
+  {
+    id: 12,
+    image: Work12,
+    title: "L&YConstrucciones",
+    category: "app",
+    url: 'https://l-m-construcciones-h5gx.vercel.app/'  
   },
   {
     id: 8,

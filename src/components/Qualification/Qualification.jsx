@@ -12,6 +12,8 @@ const Qualification = () => {
   ];
 
   const experience = [
+    { title: "L&MConstrucciones", subtitle: "L&MConstrucciones", year: "2025" },
+    { title: "Primalstrength", subtitle: "Primalstrength ", year: "2025" },
     { title: "Barber App", subtitle: "Barber App", year: "2025" },
     { title: "Ingresos Gym", subtitle: "App para gestión de ingresos", year: "2025" },
     { title: "KICK STORE", subtitle: "App tienda de ropa", year: "2024" },
